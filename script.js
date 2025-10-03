@@ -13,6 +13,7 @@ const winningCombos = [
   [0,4,8],[2,4,6]
 ];
 
+// Fonction pour vérifier le gagnant
 function checkWinner() {
   for (const combo of winningCombos) {
     const [a,b,c] = combo;
@@ -32,6 +33,7 @@ function checkWinner() {
   }
 }
 
+// Événement sur chaque case
 cells.forEach(cell => {
   cell.addEventListener("click", () => {
     const index = cell.dataset.index;
@@ -49,6 +51,7 @@ cells.forEach(cell => {
   });
 });
 
+// Bouton Recommencer
 resetBtn.addEventListener("click", () => {
   board = ["", "", "", "", "", "", "", "", ""];
   cells.forEach(cell => {
