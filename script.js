@@ -1,4 +1,4 @@
-const cells = document.querySelectorAll(".cell")
+const cells = document.querySelectorAll(".cell");
 const playerTurnText = document.getElementById("playerTurn");
 const winnerText = document.getElementById("winner");
 const resetBtn = document.getElementById("resetBtn");
