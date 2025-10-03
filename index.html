@@ -4,22 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tic-Tac-Toe Futuriste</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header>
-    <h1>🎮 Tic-Tac-Toe Futuriste</h1>
-    <p>Joue en solo ou à deux et marque des points !</p>
+    <h1>Tic-Tac-Toe Futuriste ⚡</h1>
+    <p class="game-info" id="playerTurn">Tour de : X</p>
+    <p class="game-info hidden" id="winner"></p>
   </header>
 
   <main>
-    <div class="game-info">
-      <span id="playerTurn">Tour de : X</span>
-      <span id="winner" class="hidden"></span>
-    </div>
-
     <div id="board">
-      <!-- 9 cases du morpion -->
       <div class="cell" data-index="0"></div>
       <div class="cell" data-index="1"></div>
       <div class="cell" data-index="2"></div>
@@ -31,11 +28,10 @@
       <div class="cell" data-index="8"></div>
     </div>
 
-    <button id="resetBtn">🔄 Recommencer</button>
+    <button id="resetBtn">Recommencer ⚡</button>
   </main>
 
-  <footer>⚡ Jiraya Crew</footer>
-
   <script src="script.js"></script>
+
 </body>
 </html>
