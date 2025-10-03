@@ -33,16 +33,38 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 0 10px #00f0ff;
   transition: 0.3s;
+  color: #0ff;
+  position: relative;
 }
 
 .cell:hover {
   box-shadow: 0 0 20px #00fff7, 0 0 30px #00ffff;
   transform: scale(1.05);
+}
+
+.cell.X::after {
+  content: 'X';
+  color: #ff0055;
+  text-shadow: 0 0 10px #ff55aa, 0 0 20px #ff00ff;
+  animation: pop 0.3s ease forwards;
+}
+
+.cell.O::after {
+  content: 'O';
+  color: #00ffff;
+  text-shadow: 0 0 10px #00fff7, 0 0 20px #00ffff;
+  animation: pop 0.3s ease forwards;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
 }
 
 #resetBtn {
@@ -66,4 +88,15 @@ header h1 {
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.winner-glow {
+  animation: glowWinner 1s infinite alternate;
+  color: #ff00ff;
+  text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff55ff;
+}
+
+@keyframes glowWinner {
+  0% { text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff55ff; }
+  100% { text-shadow: 0 0 40px #ff00ff, 0 0 80px #ff55ff; }
 }
