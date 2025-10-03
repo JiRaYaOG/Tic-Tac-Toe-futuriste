@@ -8,9 +8,9 @@ let currentPlayer = "X";
 let gameOver = false;
 
 const winningCombos = [
-  [0,1,2],[3,4,5],[6,7,8], // lignes
-  [0,3,6],[1,4,7],[2,5,8], // colonnes
-  [0,4,8],[2,4,6]          // diagonales
+  [0,1,2],[3,4,5],[6,7,8],
+  [0,3,6],[1,4,7],[2,5,8],
+  [0,4,8],[2,4,6]
 ];
 
 function checkWinner() {
@@ -20,6 +20,7 @@ function checkWinner() {
       gameOver = true;
       winnerText.textContent = `🎉 ${board[a]} gagne !`;
       winnerText.classList.remove("hidden");
+      winnerText.classList.add("winner-glow");
       return;
     }
   }
@@ -27,6 +28,7 @@ function checkWinner() {
     gameOver = true;
     winnerText.textContent = "⚡ Égalité !";
     winnerText.classList.remove("hidden");
+    winnerText.classList.add("winner-glow");
   }
 }
 
@@ -36,7 +38,7 @@ cells.forEach(cell => {
     if (board[index] !== "" || gameOver) return;
 
     board[index] = currentPlayer;
-    cell.textContent = currentPlayer;
+    cell.classList.add(currentPlayer);
 
     checkWinner();
 
@@ -49,9 +51,13 @@ cells.forEach(cell => {
 
 resetBtn.addEventListener("click", () => {
   board = ["", "", "", "", "", "", "", "", ""];
-  cells.forEach(cell => cell.textContent = "");
+  cells.forEach(cell => {
+    cell.textContent = "";
+    cell.classList.remove("X","O");
+  });
   currentPlayer = "X";
   gameOver = false;
   playerTurnText.textContent = `Tour de : ${currentPlayer}`;
   winnerText.classList.add("hidden");
+  winnerText.classList.remove("winner-glow");
 });
