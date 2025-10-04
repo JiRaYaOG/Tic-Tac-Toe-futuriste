@@ -55,5 +55,4 @@ Sauvegarde des scores via localStorage
 ## 👨‍💻 Auteur
 
 Projet créé par JiRaYaOG
-💎 GitHub
  — Passionné de design web futuriste et d’expérimentations JavaScript.
