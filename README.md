@@ -42,7 +42,7 @@ L’objectif ici est de pratiquer la **logique JavaScript** et la **manipulation
 
 Aucune dépendance requise — tout fonctionne en local 🌐
 
-🧩 Idées d’amélioration
+## 🧩 Idées d’amélioration
 
 Ajouter un mode solo contre une IA (facile / difficile)
 
@@ -52,7 +52,7 @@ Effet glitch ou particules animées en fond d’écran
 
 Sauvegarde des scores via localStorage
 
-👨‍💻 Auteur
+## 👨‍💻 Auteur
 
 Projet créé par JiRaYaOG
 💎 GitHub
