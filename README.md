@@ -37,4 +37,3 @@ L’objectif ici est de pratiquer la **logique JavaScript** et la **manipulation
 1. Clone ce dépôt :
    ```bash
    git clone https://github.com/JiRaYaOG/Tic-Tac-Toe-futuriste.git
-aYaOG/tic-tac-toe-futuriste.git
