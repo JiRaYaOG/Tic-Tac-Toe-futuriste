@@ -57,5 +57,3 @@ Sauvegarde des scores via localStorage
 Projet créé par JiRaYaOG
 💎 GitHub
  — Passionné de design web futuriste et d’expérimentations JavaScript.
-
-✨ “Le futur appartient à ceux qui codent avec style.” ✨
