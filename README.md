@@ -1,33 +1,40 @@
-# Tic-Tac-Toe Futuriste 🕹️⚡
+# 🎮 Tic-Tac-Toe Futuriste
 
-Bienvenue dans le **Tic-Tac-Toe Futuriste**, un mini-jeu interactif en JavaScript avec un style cyberpunk et des animations futuristes.
+Un jeu de **morpion revisité** dans un univers **cyberpunk et néon**, développé en **HTML / CSS / JavaScript**.  
+Animations, effets de lumière et interface moderne pour une expérience futuriste ⚡
 
----
-
-## Aperçu
-
-- Jouez à **X contre O** (à deux joueurs sur le même écran)  
-- Hover glow sur les cases pour un effet futuriste  
-- Indication du **tour actuel**  
-- Détection automatique du **gagnant ou de l’égalité**  
-- Bouton pour **recommencer la partie**
+👉 [Voir le site en ligne](https://jirayaog.github.io/Tic-Tac-Toe-futuriste/)
 
 ---
 
-## Fonctionnalités
+## 🧠 Objectif du projet
 
-- ✅ Jeu interactif en **temps réel sur le navigateur**  
-- ✅ **Animation hover** sur les cases  
-- ✅ Gestion du **tour de chaque joueur**  
-- ✅ Indication du **gagnant**  
-- ✅ **Reset** pour relancer une nouvelle partie  
-- 🎨 **Style futuriste / cyberpunk** grâce à CSS
+Ce projet fait partie d’une série de 5 mini-projets web pour progresser en **HTML / CSS / JavaScript**.  
+L’objectif ici est de pratiquer la **logique JavaScript** et la **manipulation du DOM** en créant un jeu interactif complet.
 
 ---
 
-## Installation / Utilisation
+## 🚀 Fonctionnalités
 
-1. **Cloner le repo :**
+- 🟣 Jouer à deux directement dans le navigateur  
+- 🔄 Bouton **Recommencer** pour relancer une partie  
+- 💡 Indication du **joueur courant** (X ou O)  
+- 🌈 Animation et glow futuriste sur les cases  
+- 🏆 Détection automatique du **gagnant** ou de l’**égalité**
 
-```bash
-git clone https://github.com/JiRaYaOG/tic-tac-toe-futuriste.git
+---
+
+## 🛠️ Technologies utilisées
+
+- **HTML5** → Structure du plateau et du jeu  
+- **CSS3 (Flexbox & Neon Style)** → Effets futuristes, glow, animation sur hover  
+- **JavaScript (Vanilla)** → Logique du jeu, gestion des tours, détection des victoires
+
+---
+
+## 💾 Installation locale
+
+1. Clone ce dépôt :
+   ```bash
+   git clone https://github.com/JiRaYaOG/Tic-Tac-Toe-futuriste.git
+aYaOG/tic-tac-toe-futuriste.git
