@@ -37,3 +37,25 @@ L’objectif ici est de pratiquer la **logique JavaScript** et la **manipulation
 1. Clone ce dépôt :
    ```bash
    git clone https://github.com/JiRaYaOG/Tic-Tac-Toe-futuriste.git
+
+2. Ouvre le fichier index.html dans ton navigateur.
+
+Aucune dépendance requise — tout fonctionne en local 🌐
+
+🧩 Idées d’amélioration
+
+Ajouter un mode solo contre une IA (facile / difficile)
+
+Ajouter un compteur de score
+
+Effet glitch ou particules animées en fond d’écran
+
+Sauvegarde des scores via localStorage
+
+👨‍💻 Auteur
+
+Projet créé par JiRaYaOG
+💎 GitHub
+ — Passionné de design web futuriste et d’expérimentations JavaScript.
+
+✨ “Le futur appartient à ceux qui codent avec style.” ✨
